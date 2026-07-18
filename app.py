@@ -1,3 +1,4 @@
+import pt_model
 import streamlit as block_st
 import spacy
 
