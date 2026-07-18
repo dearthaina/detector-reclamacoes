@@ -1,7 +1,6 @@
 import streamlit as block_st
 import spacy
 
-# Configuração da página do Streamlit
 block_st.set_page_config(page_title="Detector de Reclamações", page_icon="🔍")
 
 @block_st.cache_resource
