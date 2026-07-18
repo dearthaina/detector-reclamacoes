@@ -1,11 +1,9 @@
-import pt_model
 import streamlit as block_st
 import spacy
 
 # Configuração da página do Streamlit
 block_st.set_page_config(page_title="Detector de Reclamações", page_icon="🔍")
 
-# Otimização: Carrega o modelo do spaCy apenas uma vez
 @block_st.cache_resource
 def carregar_modelo():
     return spacy.load("pt_core_news_sm")
