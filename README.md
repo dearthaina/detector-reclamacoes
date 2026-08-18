@@ -11,14 +11,10 @@ O principal objetivo do projeto é automatizar a identificação de reclamaçõe
 * **Streamlit** (Criação e renderização da interface gráfica web do app)
 * **spaCy** (Processamento de Linguagem Natural com o modelo pré-treinado em português `pt_core_news_sm`)
 
-## 🚀 Como Executar o Projeto
+## 🚀 Como executar o projeto
 
-### 1. Preparar os Arquivos
-Certifique-se de que os arquivos do seu projeto estão na mesma pasta do seu computador:
-* `app.py` (Código principal com o aplicativo Streamlit)
-* `requirements.txt` (Arquivo contendo as dependências de instalação)
-
-### 2. Instalar as Dependências
-Abra o seu Terminal ou Prompt de Comando (CMD) dentro da pasta onde os arquivos estão salvos e execute o seguinte comando:
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/dearthaina/detector-reclamacoes
+cd detector-reclamacoes
+python -m pip install -r requirements.txt
+streamlit run sistema_web.py
